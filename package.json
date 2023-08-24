@@ -1,9 +1,9 @@
 {
-  "homepage": "https://sangwaniya.github.io/json-to-excel",
   "name": "json-to-excel",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Sangwaniya/JSON-to-Excel",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -11,7 +11,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-  },  
+  },
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
